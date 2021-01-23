@@ -1,3 +1,43 @@
+/* This is a single-line comment */
 details {
   background-color: yellow;
 }
+
+p {
+  color: red;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+p.dotted {border-style: dotted;}
+
+h1 {
+  font-size: 60px;
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+  position: static;
+}
+
+
+
+
