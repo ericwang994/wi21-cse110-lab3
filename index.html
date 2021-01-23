@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="CSE110 Lab2">
   <style>
+    
   .myDiv {
     border: 5px outset red;
     background-color: lightblue;    
@@ -19,17 +20,36 @@
     color: maroon;
     margin-left: 40px;
   }
+  a:link {
+    color: red;
+  }
+
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
   </style>
 </head>
 <body>
 
-<div class="myDiv">
+<div>
 <h1>Hi, I am Hang Wang!</h1>
 </div>
 <p style="color:red;">I am currently in China, and I am in <b>CS</b> major, this year is my last year in <b>UCSD</b>.</p>
 
+<div class = "ex2">
 <p>I am facing a <i><strong>big</strong></i> situation now which is: <strong>graduatation</strong>!</p>
-
+</div>
 <p>I have two choices before I graduate:
 <select id="options">
   <option value="volvo">Successful completion of graduation</option>
@@ -51,7 +71,8 @@
     <td>Keep a positive attitude</td>
   </tr>
 </table>
-
+<a href="./mystyle.css" target="_blank">mystyle.css</a>
+  
 <details>
   <summary>In conclusion:</summary>
   <p>Going out of the campus and stepping into the society is something that everyone of us will face. I will try my best to give myself a perfect future.</p>
