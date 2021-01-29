@@ -4,7 +4,7 @@ details {
   font-size: 1cm;
 }
 
-p {
+p.three {
   color: red;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -12,8 +12,6 @@ p {
   margin-left: 80px;
   font-size: 1.5cm;
 }
-
-p.dotted {border-style: dotted;}
 
 p.one {
   border-style: solid;
