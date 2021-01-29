@@ -1,6 +1,7 @@
 /* This is a single-line comment */
 details {
   background-color: yellow;
+  font-size: 1cm;
 }
 
 p {
@@ -9,12 +10,27 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+  font-size: 1.5cm;
 }
 
 p.dotted {border-style: dotted;}
 
+p.one {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  border-radius: 5px;
+  font-size: 0.5cm;
+  line-height: 3em;
+}
+
+p.two{
+   margin: 25px 50px 75px 100px;
+}
+
 h1 {
   font-size: 60px;
+  margin: auto;
 }
 
 div {
@@ -29,6 +45,7 @@ div {
   height: 200px;
   width: 50%;
   background-color: powderblue;
+  position: absolute;
 }
 
 div.ex2 {
@@ -36,8 +53,21 @@ div.ex2 {
   margin: auto;
   border: 3px solid #73AD21;
   position: static;
+  padding: 25px 50px 75px 100px;
 }
 
+@media screen and (min-width: 480px) {
+  summary {
+    background-color: yellow;
+  }
+}
+
+.container {
+  flex-flow: column wrap;
+  flex-wrap: nowrap;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
 
 
 
