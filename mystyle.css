@@ -33,7 +33,7 @@ h1 {
   margin: auto;
 }
 
-div {
+div.ex1 {
   width: 300px;
   border: 15px solid green;
   padding: 50px;
